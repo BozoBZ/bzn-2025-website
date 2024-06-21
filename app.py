@@ -30,7 +30,7 @@ ATHLETES = [
         'nachname': 'Brunner',
         'ge': 'M',
         'geburtsdatum': '12.12.2012'
-    }
+    },
     {
         'id': 5,
         'vorname': 'Alexander',
