@@ -31,6 +31,13 @@ ATHLETES = [
         'ge': 'M',
         'geburtsdatum': '12.12.2012'
     }
+    {
+        'id': 5,
+        'vorname': 'Alexander',
+        'nachname': 'Kutscher',
+        'ge': 'M',
+        'geburtsdatum': '12.01.2011'
+    }
 ]
 
 @app.route("/")
