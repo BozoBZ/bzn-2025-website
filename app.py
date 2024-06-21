@@ -17,25 +17,25 @@ ATHLETES = [
         'ge': 'W',
         'geburtsdatum': '10.11.2013'
     },
-{
-    'id': 3,
-    'vorname': 'Jascha',
-    'nachname': 'Luft',
-    'ge': 'M',
-    'geburtsdatum': '01.10.2011'
-},
-{
-    'id': 4,
-    'vorname': 'Liz',
-    'nachname': 'Brunner',
-    'ge': 'M',
-    'geburtsdatum': '12.12.2012'
-}
+    {
+        'id': 3,
+        'vorname': 'Jascha',
+        'nachname': 'Luft',
+        'ge': 'M',
+        'geburtsdatum': '01.10.2011'
+    },
+    {
+        'id': 4,
+        'vorname': 'Liz',
+        'nachname': 'Brunner',
+        'ge': 'M',
+        'geburtsdatum': '12.12.2012'
+    }
 ]
 
 @app.route("/")
 def hello_world():
-    return render_template ("home.html", athlet=ATHLETES)
+    return render_template ("home.html", athletes=ATHLETES)
 
 @app.route("/api/athletes")
 def list_athletes():
